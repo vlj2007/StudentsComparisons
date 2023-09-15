@@ -37,21 +37,16 @@ public class Main {
         ravenclaw1.showStudents();
         ravenclaw2.showStudents();
         System.out.println("================================");
-
         hogwarts.compareStudents(gryffindor2, gryffindor);
         hogwarts.compareStudents(slytherin, slytherin2);
         hogwarts.compareStudents(ravenclaw1, ravenclaw);
         hogwarts.compareStudents(hufflepuff, hufflepuff2);
-
         System.out.println("\n================================");
-
         hogwarts.studentEquals(gryffindor2, gryffindor);
         hogwarts.studentEquals(slytherin, slytherin2);
         hogwarts.studentEquals(ravenclaw1, ravenclaw);
         hogwarts.studentEquals(hufflepuff, hufflepuff2);
-
         System.out.println("\n================================");
-
 
     }
 }
